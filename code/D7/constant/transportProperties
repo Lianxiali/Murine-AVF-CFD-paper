@@ -1,0 +1,22 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2306                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// kinematic viscosity = dynamic viscosity / density; unit = [m^2/s] 
+
+transportModel Newtonian;
+nu             4e-6;  // blood (density ~ 1 gm/cm^3, viscosity ~ 4 cP); 1 cp (dynamic viscosity) = 1e-3 Pa.s 
+
+
+// ************************************************************************* //

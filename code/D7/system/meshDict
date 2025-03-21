@@ -1,0 +1,111 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                |
+| \\      /  F ield         | cfMesh: A library for mesh generation          |
+|  \\    /   O peration     |                                                |
+|   \\  /    A nd           | Author: Franjo Juretic                         |
+|    \\/     M anipulation  | E-mail: franjo.juretic@c-fields.com            |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version   2.0;
+    format    ascii;
+    class     dictionary;
+    location  "system";
+    object    meshDict;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+surfaceFile "constant/triSurface/AVF.fms";
+
+minCellSize 0.05;
+
+maxCellSize 0.05;
+
+boundaryCellSize 0.05;
+
+
+localRefinement
+{
+    // proximal_artery
+    // {
+    //     cellSize 0.1;
+    // }
+
+    // distal_artery
+    // {
+    //     cellSize 0.1;
+    // }
+  
+    // vein
+    // {
+    //     cellSize 0.1;
+    // }
+}
+
+boundaryLayers
+{
+    optimizeLayer 1;  
+    untangleLayers 0;
+
+
+   patchBoundaryLayers
+   {
+	   wall
+	   {
+			nLayers 5;
+
+			thicknessRatio 1.05;
+
+			maxFirstLayerThickness 0.005;
+            
+            allowDiscountinuity 0;
+	   }
+   }
+   
+   optimisationParameters
+   {
+	   nSmoothNormals 3;
+	   maxNumbIterations 5;
+	   featureSizeFactor 0.4;
+	   reCalculateNormals 1;
+	   relThicknessTol 0.1;
+   }
+}
+
+renameBoundary
+{
+    defaultName     wall;
+    defaultType     wall;
+
+    newPatchNames
+    {
+        "proximal_artery"
+        {
+            type    patch;
+            newName proximal_artery;
+        }
+
+        "distal_artery"
+        {
+            type    patch;
+            newName distal_artery;
+        }
+
+        "vein"
+        {
+            type    patch;
+            newName vein;
+        }
+
+        "wall"
+        {
+            type    wall;
+            newName wall;
+        }
+
+    }
+}
+
+
+// ************************************************************************* //

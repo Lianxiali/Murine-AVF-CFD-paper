@@ -1,0 +1,58 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    arch        "LSB;label=32;scalar=64";
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    distal_artery
+    {
+        type            flowRateOutletVelocity;
+        volumetricFlowRate tableFile;
+        volumetricFlowRateCoeffs
+        {
+            outOfBounds     repeat;
+            file            "0/flowrate/092524C2D7HD_Q.txt";
+        }
+        value           uniform (0 0 0);
+    }
+    proximal_artery
+    {
+        type            flowRateInletVelocity;
+        volumetricFlowRate tableFile;
+        volumetricFlowRateCoeffs
+        {
+            outOfBounds     repeat;
+            file            "0/flowrate/092524C2D7HR_Q.txt";
+        }
+        value           uniform (0 0 0);
+    }
+    vein
+    {
+        type            zeroGradient;
+    }
+    wall
+    {
+        type            noSlip;
+    }
+}
+
+
+// ************************************************************************* //

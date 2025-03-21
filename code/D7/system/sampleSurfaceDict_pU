@@ -1,0 +1,651 @@
+
+type surfaces;
+setFormat raw;
+surfaceFormat vtk;
+interpolationScheme cellPointFace;
+fields (p U);
+operation       areaAverage;
+
+surfaces
+{
+
+    remeshed_artery_Section00
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section00.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section01
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section01.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section02
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section02.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section03
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section03.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section04
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section04.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section05
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section05.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section06
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section06.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section07
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section07.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section08
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section08.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section09
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section09.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section10
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section10.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section11
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section11.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section12
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section12.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section13
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section13.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section14
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section14.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section15
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section15.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section16
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section16.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section17
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section17.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section18
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section18.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section19
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section19.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section20
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section20.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section21
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section21.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section22
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section22.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section23
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section23.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section24
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section24.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section25
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section25.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section26
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section26.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section27
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section27.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section28
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section28.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section29
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section29.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section30
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section30.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section31
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section31.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section32
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section32.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section33
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section33.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section34
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section34.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section35
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section35.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section36
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section36.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section37
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section37.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section38
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section38.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_artery_Section39
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_artery_Section39.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section00
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section00.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section01
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section01.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section02
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section02.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section03
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section03.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section04
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section04.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section05
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section05.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section06
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section06.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section07
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section07.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section08
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section08.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section09
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section09.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section10
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section10.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section11
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section11.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section12
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section12.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section13
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section13.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section14
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section14.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section15
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section15.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section16
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section16.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section17
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section17.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section18
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section18.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section19
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section19.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section20
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section20.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section21
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section21.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section22
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section22.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section23
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section23.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section24
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section24.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section25
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section25.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section26
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section26.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section27
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section27.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section28
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section28.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section29
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section29.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section30
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section30.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section31
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section31.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section32
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section32.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section33
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section33.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section34
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section34.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section35
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section35.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section36
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section36.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section37
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section37.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section38
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section38.stl;
+        source          cells;
+        interpolate     true;
+    }
+    
+    remeshed_fistula_Section39
+    {
+        type            sampledTriSurfaceMesh;
+        surface         remeshed_fistula_Section39.stl;
+        source          cells;
+        interpolate     true;
+    }
+    }

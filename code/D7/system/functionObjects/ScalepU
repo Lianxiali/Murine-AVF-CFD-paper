@@ -1,0 +1,21 @@
+
+p_mmHg
+{
+    type    exprField;
+    libs    (fieldFunctionObjects);
+    field   p_mmHg;
+//     action  modify;
+
+    expression  "p * 1040 / 133.322";
+}
+
+// Modify an existing field
+U_mm_s
+{
+    type    exprField;
+    libs    (fieldFunctionObjects);
+    field   U_mms;
+//     action  modify;
+
+    expression  "U * 1000";
+}

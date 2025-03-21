@@ -1,0 +1,2412 @@
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      sectionAverageFuncDict_pU;
+}
+
+functions
+{
+
+    remeshed_artery_Section00_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section00;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section00.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section01_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section01;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section01.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section02_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section02;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section02.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section03_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section03;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section03.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section04_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section04;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section04.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section05_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section05;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section05.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section06_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section06;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section06.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section07_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section07;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section07.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section08_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section08;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section08.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section09_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section09;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section09.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section10_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section10;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section10.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section11_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section11;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section11.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section12_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section12;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section12.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section13_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section13;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section13.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section14_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section14;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section14.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section15_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section15;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section15.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section16_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section16;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section16.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section17_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section17;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section17.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section18_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section18;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section18.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section19_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section19;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section19.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section20_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section20;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section20.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section21_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section21;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section21.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section22_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section22;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section22.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section23_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section23;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section23.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section24_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section24;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section24.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section25_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section25;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section25.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section26_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section26;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section26.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section27_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section27;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section27.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section28_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section28;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section28.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section29_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section29;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section29.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section30_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section30;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section30.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section31_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section31;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section31.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section32_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section32;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section32.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section33_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section33;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section33.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section34_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section34;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section34.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section35_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section35;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section35.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section36_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section36;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section36.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section37_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section37;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section37.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section38_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section38;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section38.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_artery_Section39_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_artery_Section39;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_artery_Section39.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section00_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section00;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section00.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section01_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section01;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section01.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section02_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section02;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section02.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section03_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section03;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section03.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section04_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section04;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section04.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section05_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section05;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section05.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section06_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section06;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section06.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section07_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section07;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section07.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section08_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section08;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section08.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section09_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section09;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section09.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section10_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section10;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section10.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section11_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section11;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section11.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section12_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section12;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section12.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section13_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section13;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section13.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section14_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section14;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section14.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section15_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section15;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section15.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section16_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section16;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section16.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section17_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section17;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section17.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section18_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section18;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section18.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section19_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section19;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section19.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section20_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section20;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section20.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section21_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section21;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section21.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section22_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section22;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section22.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section23_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section23;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section23.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section24_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section24;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section24.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section25_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section25;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section25.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section26_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section26;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section26.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section27_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section27;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section27.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section28_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section28;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section28.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section29_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section29;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section29.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section30_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section30;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section30.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section31_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section31;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section31.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section32_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section32;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section32.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section33_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section33;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section33.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section34_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section34;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section34.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section35_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section35;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section35.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section36_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section36;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section36.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section37_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section37;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section37.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section38_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section38;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section38.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    
+    remeshed_fistula_Section39_average
+    {
+        
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    log             on;
+    enabled         true;
+
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;
+    surfaceFormat   raw;
+
+    operation       areaAverage;
+    fields          (p U);
+    writeArea       true;
+    enabled         true;
+    regionType      sampledSurface;
+
+        name            remeshed_fistula_Section39;
+        sampledSurfaceDict
+        {
+            type            sampledTriSurfaceMesh;
+            surface         remeshed_fistula_Section39.stl;
+            source          cells;
+            interpolate     true;
+        }
+    }
+    }
